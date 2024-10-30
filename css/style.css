@@ -1,0 +1,373 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    color: rgb(18, 0, 110);
+}
+
+/* For desktop: */
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    .container {
+        width: 100%;
+    }
+}
+/* For desktop: */
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    .row {
+        flex-wrap: wrap;
+    }
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+/* For desktop: */
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/* For mobile: */
+@media only screen and (max-width: 1000px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+/* For desktop: */
+[class*="col-"] {
+    padding: 15px;
+}
+
+.shadow {
+    box-shadow: 0 0 20px gainsboro;
+    border-radius: 10px;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    padding: 10px;
+    font-size: 20px;
+}
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    nav li {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+    }
+    nav ul {
+        background-color: rgb(243, 251, 254);
+    }
+}
+
+nav li a {
+    color: rgb(18, 0, 110);
+}
+
+nav li:hover {
+    background-color:  rgb(225, 245, 253);
+}
+
+.text-right{
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+}
+.text-center {
+    text-align: center;
+}
+.py-3 {
+    padding: 16px 0;
+}
+.px-3 {
+    padding: 0 16px;
+}
+.p-3 {
+    padding: 16px;
+}
+
+.bg-azul-o {
+    background-color: rgb(0 157 222);
+}
+.bg-azul-c {
+    background-color: rgb(240, 249, 252);
+}
+.bg-orange {
+    background-color: orange;
+}
+.text-white {
+    color: white;
+}
+.text-red {
+    color: red;
+    font-size: 30px;
+    background-color: cyan;
+}
+footer h1 {
+    border-bottom-left-radius: 10px;
+}
+footer h1 {
+    border-bottom-right-radius: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+#btnmenu {
+    font-size: 40px;
+    display: none;
+}
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    #btnmenu {
+        display: inline;
+    }
+    #menu{
+        display: none;
+    }
+}
+@media screen and (max-width: 1600px) and (min-width: 1000px)  {
+    #menu{
+        display: block;
+    }
+}
+
+.etiqueta{
+    color: blueviolet;
+    font-size: 150%;
+    font-weight: bold;    
+}
+
+.atributo{
+    color: green;
+    font-size: 150%;
+}
+#enlaces a {
+    color: blue;
+    text-decoration: underline;
+    font-size: 24px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.customdes li{
+    list-style-type: square;
+}
+
+.customdes li{
+    list-style-type: square;
+}
+
+.customdes li li{
+    list-style-type: disc;
+}
+.customdes li li li{
+    list-style-type: circle;
+}
+
+.customord li{
+    list-style-type: decimal;
+}
+
+.customord li li{
+    list-style-type: upper-alpha;
+}
+.customord li li li{
+    list-style-type: lower-roman;
+}
+
+.desicon li li li{
+    list-style-type: square;
+    list-style-image: none;
+}
+.desicon li li{
+    list-style-image: url(../img/250567-removebg-preview.png);
+}
+
+.customdef dt{
+    font-weight: bold;
+    background-color: pink;
+    color: black;
+    font-size: 24px;
+    display: inline;
+}
+
+.tabla1 tr th{
+    background-color: rgb(1, 2, 67);
+    color: white;
+}
+
+.tabla2 tr:nth-child(odd){
+    background-color: red;
+}
+
+.tabla2 tr:nth-child(even) {
+    background-color: yellow;
+}
+
+.Login1 {
+    float: left;
+    width: 25%;
+
+}
+.Signin {
+    float: right;
+    width: 49.4%;
+}
+.cb {
+    clear: both;
+}
+.loginbutton{
+    background-color: rgb(22, 3, 68);
+    color: white;
+    height: 30px;
+    width: 75px;
+    border-radius: 6px;
+}
+
+
+
+
+.col3 {
+    width: 33.3%;
+    float: left;
+}
+
+.col3 img {
+    padding: 4px    ;
+}
+
+video {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+audio {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+.text-center {
+    text-align: center;
+}
+.horario {
+    width: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+.titulo {
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: rgb(49, 132, 138);
+}
+.ñ {
+    color: rgb(37, 115, 117);
+}
+.dias {
+    color: rgb(37, 115, 117);
+}
+.horas{
+    color: rgb(37, 115, 117);
+}
+.bdd {
+    background-color: rgb(129, 255, 129);
+}
+.prog {
+    background-color: rgb(99, 181, 239);
+}
+.sasp {
+    background-color: rgb(39, 201, 198);
+}
+.sisi {
+    background-color: rgb(101, 170, 151);
+}
+.ipcg {
+    background-color: rgb(228, 163, 117);
+}
+.ende {
+    background-color: rgb(201, 160, 200);
+}
+.dasp {
+    background-color: rgb(252, 255, 100);
+}
+.ipe {
+    background-color: rgb(251, 130, 127);
+}
+.lmsg {
+    background-color: rgb(212, 210, 110);
+}
+.pimd {
+    background-color: rgb(255, 199, 149);
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso HTML5-CSS3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container shadow">
+        <header>
+            <div class="row align-items-center">
+                <div class="col-3"><img src="img/logoiesfseif.png" alt="logo" width="250"></div>
+                <div class="col-9">
+                    <span id="btnmenu" onclick="opendrawer()">&#9776;</span>
+                    <nav id="menu">
+                        <ul class="text-right">
+                            <li>
+                                <a href="index.html">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="parrafos.html">
+                                    Párrafos
+                                </a>
+                            </li>
+                            <li>
+                                <a href="enlaces.html">
+                                    Enlaces
+                                </a>
+                            </li>
+                            <li>
+                                <a href="listas.html">
+                                    Listas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tablas.html">
+                                    Tablas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="formularios.html">
+                                    Formularios
+                                </a>
+                            </li>
+                            <li>
+                                <a href="multimedia.html">
+                                    Multimedia
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+
+        </header>
+        <main class="shadow">
+            <div class="px-3">
+                <h1 class="text-center bg-azul-o text-white py-3">HTML5 & CSS3</h1>
+            </div>
+            <div class="px-3">
+                <hr>
+            </div>
+            <div class="p-3">
+                <div id="formularios" class="py-3">
+                    <h2 class="text-center">FORMULARIOS</h2>
+                    <form action="#" method="get"> 
+                        <h3>Formulario de login</h3>
+                        <fieldset class="Login1"> <br />
+                            <legend>Login</legend>
+                            <p>Nombre: <input type="text" name="user" id="user" placeholder="Usuario"> <br /></p>
+                            <p>Contraseña: <input type="password" name="password" id="password" placeholder="Contraseña"> <br /></p>
+                            <p><input type="submit" value="Login" class="loginbutton"></p>
+                        </fieldset>
+                        <fieldset class="Signin"> <br />
+                        <legend>Registro</legend>
+                            input type text <input type="text" name="" id=""><br/>
+                            </p>input type password <input type="password" name="" id=""><br/>
+                        </p>Fecha nacimiento: (Lista simple->tag select) 
+                            <select name="dia" id="dia">
+                                <option value="1-10">1-10</option>
+                                <option value="11-20">11-20</option>
+                                <option value="21-31">21-31</option>
+                            </select>
+                            <select name="meses" id="meses">
+                                <option value="Enero">Enero</option>
+                                <option value="Febrero">Febrero</option>
+                                <option value="Marzo">Marzo</option>
+                                <option value="Abril">Abril</option>
+                                <option value="Mayo">Mayo</option>
+                                <option value="Junio">Junio</option>
+                                <option value="Julio">Julio</option>
+                                <option value="Agosto">Agosto</option>
+                                <option value="Septiembre">Septiembre</option>
+                                <option value="Octubre">Octubre</option>
+                                <option value="Noviembre">Noviembre</option>
+                                <option value="Diciembre">Diciembre</option>
+                            </select>
+                            <select name="" id="">
+                                <option value="1900-1950">1900-1950</option>
+                                <option value="1951-2000">1951-2000</option>
+                                <option value="2001-2024">2001-2024</option>
+                            </select> <br/>
+                        </fieldset>
+                    </form>
+                    <div class="cb"></div>
+                </div>
+            </div>
+
+        </main>
+        <footer>
+            <h1 class="bg-azul-o text-center text-white py-3">&copy; Sulaiman Khounsi</h1>
+        </footer>
+    </div>
+    <script>
+        function opendrawer() {
+            document.getElementById('menu').style.display = 'block';
+            document.getElementById('menu').style.witdh = '100%';
+        }
+    </script>
+</body>
+
+</html>
