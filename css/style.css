@@ -371,3 +371,45 @@ audio {
 .pimd {
     background-color: rgb(255, 199, 149);
 }
+.formlogin {
+    float: left;
+    width: 25%;
+}
+.formregister {
+    float: right;
+    width: 50%;
+}
+.cb {
+    clear: both;
+}
+.formhtml5 {
+    width: 50%;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.formhtml5 legend {
+    background-color: rgb(6, 6, 71);
+    color: white;
+    font-size: 22px;
+}
+.formhtml5 label {
+    background-color: rgb(1, 65, 40);
+    color: rgb(191, 243, 204);
+    font-size: 16px;
+}
+.btn {
+    border: 0;
+    background-color: aqua;
+    padding: 7px 15px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+.btn-red {
+    background-color: rgb(98, 38, 99);
+    color: white;
+}
+.btn-green {
+    background-color: rgb(23, 44, 4);
+    color: rgb(177, 245, 174);
+    padding: 7px 15px;
+}
