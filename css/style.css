@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: rgb(107, 20, 20);
 }
 
 * {
@@ -101,7 +102,7 @@ body {
 }
 
 .shadow {
-    box-shadow: 0 0 20px gainsboro;
+    box-shadow: 0 0 20px rgb;
     border-radius: 10px;
 }
 nav ul{
@@ -132,7 +133,7 @@ nav li a {
 }
 
 nav li:hover {
-    background-color:  rgb(225, 245, 253);
+    background-color:  red;
 }
 
 .text-right{
@@ -156,7 +157,7 @@ a {
 }
 
 .bg-azul-o {
-    background-color: rgb(0 157 222);
+    background-color: rgb(146, 136, 27);
 }
 .bg-azul-c {
     background-color: rgb(240, 249, 252);
@@ -203,7 +204,7 @@ h1 {
 }
 
 .etiqueta{
-    color: blueviolet;
+    color: goldenrod;
     font-size: 150%;
     font-weight: bold;    
 }
@@ -213,7 +214,7 @@ h1 {
     font-size: 150%;
 }
 #enlaces a {
-    color: blue;
+    color: red;
     text-decoration: underline;
     font-size: 24px;
 }
@@ -325,21 +326,23 @@ audio {
     width: 70%;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0 auto;
+    background-color: antiquewhite;
+    border-color: yellow;
 }
 .titulo {
     font-size: large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
-    color: rgb(49, 132, 138);
+    color: goldenrod;
 }
 .ñ {
-    color: rgb(37, 115, 117);
+    color: goldenrod;
 }
 .dias {
-    color: rgb(37, 115, 117);
+    color: goldenrod;
 }
 .horas{
-    color: rgb(37, 115, 117);
+    color: goldenrod;
 }
 .bdd {
     background-color: rgb(129, 255, 129);
@@ -399,17 +402,89 @@ audio {
 }
 .btn {
     border: 0;
-    background-color: aqua;
+    background-color: gold;
     padding: 7px 15px;
     border-radius: 8px;
     font-size: 20px;
 }
 .btn-red {
-    background-color: rgb(98, 38, 99);
+    background-color: goldenrod;
     color: white;
 }
 .btn-green {
     background-color: rgb(23, 44, 4);
     color: rgb(177, 245, 174);
     padding: 7px 15px;
+}
+
+.th {
+    text-align: center;
+    margin: auto;
+}
+
+.textoparrafo{
+    color: white;
+}
+.tituloparrafo {
+    text-align: center;
+    color: goldenrod;
+}
+.th th{
+    color: white;
+    border-color: yellow;
+}
+
+.th td {
+    color: white;
+    border-color: yellow;
+}
+
+.titulotabla{
+    text-align: center;
+    color: goldenrod;
+}
+.colortitulo{
+    color: red;
+    background-color: gold;
+}
+.login1 {
+    color: white;
+}
+.login1 p {
+    color: white;
+}
+
+.colormenu {
+    color: goldenrod;
+}
+
+.py-3 ul li{
+    color: white;
+}
+
+.py-3 h3 {
+    color: goldenrod;
+}
+
+.py-3 ol li {
+    color: white;
+}
+
+.customdef dd{
+    color: white;
+}
+.titulodefiniciones {
+    color: goldenrod;
+}
+#inputformulario {
+    color: white;
+}
+.parrafo2 {
+    color: gold;
+}
+.necu {
+    color: gold;
+}
+.subsup {
+    color: gold;
 }
