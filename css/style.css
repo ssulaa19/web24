@@ -124,7 +124,7 @@ nav li {
         font-size: 30px;
     }
     nav ul {
-        background-color: rgb(243, 251, 254);
+        background-color: rgb(107, 20, 20);
     }
 }
 
@@ -258,7 +258,7 @@ html {
 
 .customdef dt{
     font-weight: bold;
-    background-color: pink;
+    background-color: gold;
     color: black;
     font-size: 24px;
     display: inline;
@@ -487,4 +487,64 @@ audio {
 }
 .subsup {
     color: gold;
+}
+.tabla22 {
+    list-style-position: inside;
+    margin: 0 auto;
+    padding-left: 0; 
+    text-align: left; 
+    width: fit-content;
+}
+.tabla22 ul {
+    list-style-position: inside;
+    margin: 0 auto;
+    padding-left: 0;
+    width: fit-content;
+}
+
+.tabla22 ul ul {
+    margin-left: 20px; 
+    padding-left: 0;
+    list-style-type: circle; 
+}
+.tabla22 ul ul ul {
+    margin-left: 20px;
+    list-style-type: square;
+}
+
+.tabla22 li {
+    list-style-position: inside;
+    margin: 0 auto;
+    padding-left: 0;
+    width: fit-content;
+}
+
+.tabla22 li li {
+    margin-left: 20px; 
+    padding-left: 0;
+    list-style-type: circle; 
+}
+.tabla22 li li li {
+    margin-left: 20px;
+    list-style-type: square;
+}
+
+.tabla22 dt{
+    text-align: center;
+}
+
+.customdef {
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.customdef dt {
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: left; 
+}
+
+.customdef dd {
+ margin-left: 20px; 
+text-align: left; 
 }
