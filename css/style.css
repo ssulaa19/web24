@@ -102,7 +102,7 @@ body {
 }
 
 .shadow {
-    box-shadow: 0 0 20px rgb;
+    box-shadow: 0 0 7px goldenrod;
     border-radius: 10px;
 }
 nav ul{
